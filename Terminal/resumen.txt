@@ -1,0 +1,6 @@
+- git init
+- mkdir nombre_carpeta
+- touch nombre_archivo.txt
+- pwd
+- ls -R
+

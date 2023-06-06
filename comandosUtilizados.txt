@@ -1,0 +1,34 @@
+   98  git init
+   99  git remote add origin https://github.com/VeroDev14/20230605-VeronicaMelgarejo.git
+  100  git remote -v
+  101  touch comandos.txt main.js index.html
+  102  git add .
+  103  git commit -m "commit 01 de VeronicaMelgarejo"
+  104  git push origin main
+  105  git branch feature01
+  106  git checkout feature01
+  107  mkdir Terminal Hardware
+  108  cd Terminal
+  109  touch resumen.txt
+  110  cd ..
+  111  cd Hardware
+  112  touch resumen.txt
+  113  cd ..
+  114  git add .
+  115  git commit -m "commit 02 de VeronicaMelgarejo"
+  116  git push origin feature01
+  117  git branch feature02
+  118  git checkout feature02
+  119  cd Terminal
+  120  nano resumen.txt
+  121  cd ../Hardware
+  122  nano resumen.txt
+  123  git add .
+  124  cd ..
+  125  git add .
+  126  git status
+  127  git commit -m "commit 03 de VeronicaMelgarejo"
+  128  git push origin feature02
+  129  git checkout main
+  130  mv comandos.txt comandosUtilizados.txt
+  131  history 35 > comandosUtilizados.txt
